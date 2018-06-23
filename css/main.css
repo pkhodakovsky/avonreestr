@@ -278,6 +278,17 @@ nav ul li:nth-child(6) {
     margin: 15px auto 0;
     border-bottom: 2px solid #df1d87;
 }
+.section_become_representative ul li {
+	position: relative;
+}
+.section_become_representative ul li:before {
+	content: "✓";
+	margin-right: 5px;
+	font-family: SegoeUISymbol;
+}
+.section_become_representative ul li b span {
+	color: #df1d87;
+}
 .advantages {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
