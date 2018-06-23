@@ -115,7 +115,8 @@ nav ul li:nth-child(6) {
 	padding-right: 5px;
 }
 .callback_registration {
-	justify-self: right;
+	/*justify-self: right;*/
+	text-align: right;
 }
 .reg_btn {
 	background-color: #df1d87;
@@ -136,9 +137,11 @@ nav ul li:nth-child(6) {
 }
 .header_form form {
 	padding: 50px;
+	padding-bottom: 25px;
 	background-color: rgba(0, 0, 0, 0.8);
 	width: 50%;
 	margin: 0 auto;
+	margin-bottom: 50px;
 	border-radius: 10px;
 }
 .header_form .input_box {
@@ -329,6 +332,15 @@ nav ul li:nth-child(6) {
 .partner img {
 	max-width: 100%;
 }
+.rep {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-top: 30px;
+	text-align: center;
+}
+.rep img {
+	max-width: 100%;
+}
 .section_become_representative ul {
 	padding: 0;
 	margin: 0;
@@ -350,7 +362,8 @@ nav ul li:nth-child(6) {
 }
 .part_0 {
 	grid-column: 1 / 4;
-	justify-self: center;
+	/*justify-self: center;*/
+	text-align: center;
 }
 .partner span {
 	display: inline-block;
@@ -648,18 +661,19 @@ footer a {
 .callback_form input:focus:required:invalid {
 	border-bottom: 1px solid red;
 }
-.callback_msg {
+.callback_msg,
+.s_form_msg,
+.f_form_msg {
 	opacity: 0;
+}
+.callback_msg {
 	transition: all 0.5s;
 }
 .s_form_msg {
-	opacity: 0;
 	transition: all 0.5s;
-	margin-left: 10px;
 	color: #fff;
 }
 .f_form_msg {
-	opacity: 0;
 	transition: all 0.5s;
 }
 .not_agree {
