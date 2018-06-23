@@ -1,0 +1,262 @@
+@media only screen and (max-width: 1200px) {
+	.wrapper {
+		padding: 0 30px;
+	}
+	.logo a {
+		font-size: 2em;
+	}
+	nav ul li {
+		margin-right: 5px;
+	}
+	nav ul a {
+		font-size: 12px;
+	}
+	.hidden_phone,
+	.youtube_chanel,
+	.reg_btn {
+		font-size: 13px;
+	}
+	.hidden_phone .show_phone {
+		left: 45px;
+		top: 0px;
+	}
+	.partner {
+		grid-gap: 20px;
+	}
+	.part i {
+		margin-top: 10px;
+		display: block;
+		font-size: 0.9em;
+	}
+}
+@media only screen and (max-width: 950px) {
+	header {
+		background: url("../images/mobile.jpg") center;
+		background-size: cover;
+	}
+	.row {
+		grid-template-columns: 0.25fr 1fr 0.25fr;
+		grid-template-rows: 2;
+	}
+	.logo a {
+		font-size: 1.5em;
+	}
+	.callback_registration {
+		grid-column: 2;
+		grid-row: 1;
+		justify-self: center;
+	}
+	.mobile_callback_btn {
+		display: inline-block;
+	}
+	.nav_menu,
+	.callback_registration a {
+		display: none;
+	}
+	.nav_menu {
+		grid-column: 1 / 4;
+		grid-row: 2;
+		padding: 30px 0 50px;
+		background-color: rgba(0, 0, 0, 1);
+		text-align: center;
+	}
+	.nav_menu ul li {
+		display: block;
+		margin-bottom: 20px;
+	}
+	.nav_menu ul li a {
+		display: block;
+		font-size: 1em;
+	}
+	.hidden_phone,
+	.youtube_chanel {
+		font-size: 1em;
+	}
+	.hidden_phone .show_phone {
+		left: 55px;
+	}
+	.nav_menu .reg_btn {
+		display: inline-block;
+	}
+	.btn_nav_menu {
+		display: inline-block;
+		justify-self: right;
+	}
+	.menu_btn {
+		display: block;
+		font-size: 1.1em;
+	}
+	.hidden_phone,
+	.youtube_chanel {
+		margin-bottom: 20px;
+	}
+	.header_container {
+		grid-template-columns: 1fr;
+		padding-top: 120px;
+	}
+	.header_text {
+		text-align: center;
+	}
+	.header_text h1 {
+		font-size: 2.5em;
+		margin-bottom: 10px;
+	}
+	.header_text h3 {
+		font-size: 1.2em;
+		margin-bottom: 50px;
+	}
+	.header_form {
+		grid-row: 2;
+	}
+	.header_form  form {
+		padding: 25px;
+		width: 80%;
+		margin-bottom: 50px;
+	}
+	.magazines {
+		grid-template-columns: 1fr 1fr;
+	}
+	.catalog:nth-child(3) {
+		width: 50%;
+		grid-column: 1 / 3;
+		justify-self: center;
+	}	
+	.advantages {
+		grid-template-columns: 1fr 1fr;
+	}
+	.advantage {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.advantage:nth-child(1),
+	.advantage:nth-child(4),
+	.advantage:nth-child(5),
+	.advantage:nth-child(8) {
+		background-color: rgba(223, 29, 135, 0.1);
+	}
+	.advantage:nth-child(2),
+	.advantage:nth-child(3),
+	.advantage:nth-child(6),
+	.advantage:nth-child(7) {
+		background-color: rgba(245, 57, 163, 0.3);
+	}
+	.wrapper > h1 {
+		padding-top: 300px;
+		font-size: 2.5em;
+	}
+	.wrapper > h1 + h3 {
+		font-size: 1.5em;
+	}
+	.partner {
+		grid-template-columns: 1fr 1fr;
+	}
+	.part_0,
+	.part_1 {
+		grid-column: 1 / 3;
+	}
+	.part  {
+		text-align: center;
+	}
+	.full_form {
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 30px;
+	}
+	.reg_3 {
+		grid-column: 1 / 3;
+		justify-self: center;
+		width: 50%;
+	}
+	.desktop_callback_btn {
+		display: none;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.mobile_callback_btn {
+		font-size: 0.9em;
+	}
+	.magazines {
+		grid-template-columns: 1fr;
+	}
+	.catalog:nth-child(3) {
+		grid-column: 1;
+		width: 100%;
+	}
+	.advantages {
+		grid-template-columns: 1fr;
+	}
+	.advantage:nth-child(1),
+	.advantage:nth-child(3),
+	.advantage:nth-child(5),
+	.advantage:nth-child(7) {
+		background-color: rgba(223, 29, 135, 0.1);
+	}
+	.advantage:nth-child(2),
+	.advantage:nth-child(4),
+	.advantage:nth-child(6),
+	.advantage:nth-child(8) {
+		background-color: rgba(245, 57, 163, 0.3);
+	}
+	.shares, 
+	.partner {
+		grid-template-columns: 1fr;
+	}
+	.sha_3,
+	.part_0,
+	.part_1 {
+		grid-column: 1;
+	}
+	.part span {
+		padding: 10px 20px;
+	}
+	.full_form {
+		grid-template-columns: 1fr;
+		grid-gap: 10px;
+	}
+	.reg_3 {
+		grid-column: 1;
+		width: 100%;
+	} 
+	.wrapper > h1 {
+		/*padding-top: 160px;*/
+	}
+	.header_form .label_text {
+		font-size: 1em;
+	}
+	.header_form select {
+		font-size: 1em;
+	}
+	.podval {
+		grid-template-columns: 1fr;
+	}
+	.top {
+		right: 20px;
+		font-size: 2em;
+	}
+	.wrapper > h1 {
+		padding-top: 250px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.callback_registration {
+		font-size: 0.9em;
+	}
+	.header_text h1 {
+		font-size: 1.7em;
+	}
+	.header_text h3 {
+		font-size: 1em;
+	}
+	.wrapper > h1 {
+		font-size: 1.7em;
+	}
+	.wrapper > h1 + h3 {
+		font-size: 1.2em;
+	}
+	.reg_btn {
+		font-size: 0.8;
+		padding: 5px;
+	}
+	.menu_btn .fa {
+		font-size: 1em;
+	}
+}
