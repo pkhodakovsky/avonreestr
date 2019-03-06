@@ -354,7 +354,7 @@ nav ul li:nth-child(6) {
 }
 .rep img {
 	max-width: 100%;
-	width: 1000px;
+	width: 500px;
 }
 .section_become_representative ul {
 	padding: 0;
@@ -708,4 +708,13 @@ footer a {
 	font-size: 1.5em;
 	cursor: pointer;
 	color: #fff;
+}
+.podarki {
+	margin: 40px 0;
+}
+.img {
+	text-align: center;
+}
+.predstavitelyam {
+	width: 700px;
 }
