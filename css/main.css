@@ -281,6 +281,7 @@ nav ul li:nth-child(6) {
 .section_become_representative ul li {
 	position: relative;
 }
+.sha_3 ul li:before,
 .section_become_representative ul li:before {
 	content: "✓";
 	margin-right: 5px;
@@ -356,6 +357,7 @@ nav ul li:nth-child(6) {
 	max-width: 100%;
 	width: 500px;
 }
+.sha_3 ul,
 .section_become_representative ul {
 	padding: 0;
 	margin: 0;
