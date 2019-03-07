@@ -719,4 +719,8 @@ footer a {
 }
 .predstavitelyam {
 	width: 700px;
+	max-width: 100%;
+}
+.sha_3 video {
+	max-width: 100%;
 }
